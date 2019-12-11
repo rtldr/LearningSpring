@@ -2,12 +2,11 @@ package hello;
 
 import org.springframework.http.ResponseEntity;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ItemController {
+public class ItemModel {
 
     private static final AtomicInteger itemCount = new AtomicInteger();
 

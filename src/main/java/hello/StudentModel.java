@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class StudentController {
+public class StudentModel {
 
     private static final AtomicInteger studentCount = new AtomicInteger();
 

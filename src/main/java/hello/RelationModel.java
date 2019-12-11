@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-public class RelationController {
+public class RelationModel {
 
     public static ResponseEntity<HashMap<Student, ArrayList<Item>>> getAllCheckedOut() {
         HashMap<Integer, Integer> checkedOut = Controller.checkedOut;
