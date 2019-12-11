@@ -1,4 +1,4 @@
-package hello;
+package Server;
 
 import org.springframework.http.ResponseEntity;
 

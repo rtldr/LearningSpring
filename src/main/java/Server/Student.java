@@ -1,4 +1,4 @@
-package hello;
+package Server;
 
 public class Student {
     private int id;
