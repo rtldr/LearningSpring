@@ -1,5 +1,8 @@
 package Server;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,16 +32,6 @@ public class Controller {
     @RequestMapping(value = "/student", method = GET)
     public ResponseEntity<Collection<Student>> getStudent() {
         return StudentModel.getStudent();
-    }
-
-    @RequestMapping(value = "/student/{id}", method = GET)
-    public ResponseEntity<Student> getStudent(@PathVariable(value = "id") int id) {
-        return StudentModel.getStudent(id);
-    }
-
-    @RequestMapping(value = "/student", method = POST)
-    public ResponseEntity<Student> addStudent(@RequestParam(value = "email") String email) {
-        return StudentModel.addStudent(email);
     }
 
     @RequestMapping(value = "/student/{id}", method = DELETE)

@@ -1,12 +1,15 @@
 package Server;
 
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Component
 public class StudentModel {
 
     private static final AtomicInteger studentCount = new AtomicInteger();

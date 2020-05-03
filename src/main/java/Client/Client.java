@@ -14,8 +14,8 @@ public class Client {
     }
 
     public static void addStudents() {
-        String[] emails = {"sachin@abc.com", "aman@abc.com", "random@random.com",
-                "sid@abc.com", "riti@abc.com", "vini@abc.com"};
+            String[] emails = {"sachin@abc.com", "aman@abc.com", "random@random.com",
+                    "sid@abc.com", "riti@abc.com", "vini@abc.com", "sarvagya@uw.edu"};
 
         for(String email: emails) {
             addStudent(email);

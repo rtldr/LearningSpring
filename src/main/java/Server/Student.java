@@ -1,10 +1,12 @@
 package Server;
 
-public class Student {
-    private int id;
+import java.io.Serializable;
+
+public class Student implements Serializable {
+    private Integer id;
     private String email;
 
-    public Student(int id, String email) {
+    public Student(Integer id, String email) {
         this.id = id;
         this.email = email;
     }
