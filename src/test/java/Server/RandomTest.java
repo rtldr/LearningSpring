@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RandomTest {
 
     @Test
-    void simpleTest() {
+    public void simpleTest() {
         assertEquals(5, 2 + 2 + 1);
     }
 
