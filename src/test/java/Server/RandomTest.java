@@ -9,7 +9,7 @@ public class RandomTest {
 
     @Test
     public void simpleTest() {
-        assertEquals(5, 2 + 2 + 1);
+        assertEquals(4, 2 + 2 + 1);
     }
 
 }
