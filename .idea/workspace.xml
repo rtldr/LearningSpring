@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a1147f6-410c-4b47-b61e-934bc73a2512" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/DbController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/FirebaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server/StudentRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Server/RandomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/StudentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LearningSpring.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server/StudentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/StudentModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +120,7 @@
       <workItem from="1587952951752" duration="5620000" />
       <workItem from="1588024363101" duration="203000" />
       <workItem from="1588206261029" duration="487000" />
+      <workItem from="1588838253413" duration="405000" />
     </task>
     <servers />
   </component>
