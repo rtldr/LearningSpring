@@ -17,18 +17,18 @@ import java.util.concurrent.ExecutionException;
 @Service
 public class FirebaseClass {
 
-    @PostConstruct
-    public void init() throws IOException {
-        FileInputStream serviceAccount =
-                new FileInputStream("/Users/sachin/Downloads/test-q-firebase-firebase-adminsdk-jwu0q-aba35a01f1.json");
-
-        FirebaseOptions options = new FirebaseOptions.Builder()
-                .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                .setDatabaseUrl("https://test-q-firebase.firebaseio.com")
-                .build();
-
-        FirebaseApp.initializeApp(options);
-    }
+//    @PostConstruct
+//    public void init() throws IOException {
+//        FileInputStream serviceAccount =
+//                new FileInputStream("abc.json");
+//
+//        FirebaseOptions options = new FirebaseOptions.Builder()
+//                .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+//                .setDatabaseUrl("https://test-q-firebase.firebaseio.com")
+//                .build();
+//
+//        FirebaseApp.initializeApp(options);
+//    }
 
     public static String addUser(String user) throws InterruptedException, ExecutionException {
         Firestore dbFirestore = FirestoreClient.getFirestore();

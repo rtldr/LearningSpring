@@ -10,6 +10,8 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
+import javax.annotation.PostConstruct;
+import java.io.FileInputStream;
 import java.io.IOException;
 
 @SpringBootApplication
@@ -31,4 +33,6 @@ public class Application {
         temp.setKeySerializer(new StringRedisSerializer());
         return temp;
     }
+
+
 }
